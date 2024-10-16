@@ -110,8 +110,29 @@ cd .. : 현재 위치한 디렉토리에서 바로 위 상위 디렉토리로 �
 
 git init
 git add . 
+git status
+git remote add origin https://github.com/wogur4696/sbswebclass_241015.git
+git remote -v
+(fetch)
+(push)
 
+git commit -m "241016"
 
+git push origin master
+
+git clone https://github.com/wogur4696/sbswebclass_241015.git
+
+태그
+
+h(n)
+heading : 문서 대표 타이틀 의미를 부여하고자 할 때!!
+
+멀티태그(쌍태그)
+싱글태그(홑태그)
+
+html 태그
+1) 태그 자체만으로도 기능을 구현
+2) 반드시 속성 & 속성값이 있어야지만 기능을 구현
 
 
 
