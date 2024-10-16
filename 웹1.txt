@@ -1,0 +1,117 @@
+241015
+
+수업자료
+
+1. 수업내용 : git-hub에 올라감
+2.slack채널방 : Q&A // Source자료 등등
+
+웹1 : HTML5 , css3 를 사용
+
+Hyper Text Markup Language
+	  
+Cascading Style Sheet
+
+웹에디터 : 웹 브라우저에 간단한 UI를 구현해줄 수 있도록 도와주는 도구
+(자동완성 기능, 단축키)
+- Atom, Brackets
+- MS VS CODE
+- 로컬컴퓨터
+Root Folder : 이미지, 외부데이터
+GUI 방식
+CLI 방식
+
+보일러 플레이트
+
+emmet 기능
+
+Live Server
+Korean Language pack
+One Dark Pro
+material icon theme
+prettier
+indent rainbow
+
+Tab Size
+Word Wrap
+Mouse Wheel Zoom
+Emmet : Variables
+
+https://github.com/
+> 회원가입!!!
+
+IDE : 프론트엔드
+
+241016
+
+CLI : Command Line Interface
+하단 찾기 클릭 > cmd
+
+cd deskop (바탕화면으로 이동)
+cd web01
+mkdir 241016
+cd 241016
+code .
+
+html : Structure(구조)
+index.html
+
+css : Style(메이크업)
+> 내부스타일 시트
+> 외부스타일 시트 (거의대부분)
+> 인라인스타일
+
+alt + L + O = Live Server 확장 프로그램 실행
+
+dummy 문구!!!
+> 아무런 의미가 없는 문장 덩어리
+
+마이크로 소프트 < 개발에 진심인 회사
+1) 자동완성 기능 : emmet
+2) 외부 확장 프로그램
+
+
+git : IT 업계
+- 형상기억관리 툴
+- 버전관리 툴
+
+> 개발업무 : 절대 혼자서 X
+> 다수 개발협업 UI/UX 기획자 / 웹디자이너 / 웹퍼블리셔?
+
+원격저장소 : git-hub
+
+Repository : 레파지토리 (*저장공간)
+데이터 업로드 용량 제한 :
+1) 터미널 활용 : 100mb
+2) 수동 : 25mb
+
+git-hub에 생성한 원격저장소 레파지토리
+https://github.com/wogur4696/sbswebclass_241015
+
+로컬컴퓨터에 git 설치
+
+git -v
+
+git config --list
+
+git config --global --unset user.name
+git config --global --unset user.email
+
+git config --global user.name "wogur4696"
+git config --global user.email "wogur4696@naver.com"
+
+로컬컴퓨터에 다수의 프로젝트가 존재
+staging area : git-hub로 데이터를 옮기기전에 로컬컴퓨터 안에 별도의 공간을
+만들어서 버전관리
+> 가장 최상위 루트폴더 1개만 있어야핢!!!!!!!!!!!!!
+
+web01 > 241015 / 241016 / 241017.....
+
+cd .. : 현재 위치한 디렉토리에서 바로 위 상위 디렉토리로 이동하겠다!!
+
+git init
+git add . 
+
+
+
+
+
