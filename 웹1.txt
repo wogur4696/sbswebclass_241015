@@ -198,9 +198,42 @@ audio src
 video src
 
 form
+- 로그인
+- 회원가입
+- 검색바
+- 백엔드 영역과 프론트엔드 부분을 이어줌?
+
+RestFul API
+- GET
+- POST
+- PULL
+- DELETE
+
+Client : Server 측에 어떤 값을 요청하는 대상
+
+Server : Client 측에 요청에 의해서 어떤 액션 행위를 취하는 대상
+
+form
+
+- input type="text", "password", "checkbox", "radido"
+- textarea
+- input type="submit"
+- button
+
 
 *공간분할태그
--block // inline
+- 웹브라우저 라는 공간을 어떤 방식으로 나눠서 사용하는지를 기준으로 
+태그를 나누는 방식
+
+block 요소
+- 태생적으로 1줄에 본인만 들어갈 수 있는 욕심쟁이 태그들
+
+inline 요소
+- 태생적으로 본인의 너비값만 사용을 할 뿐, 1줄에 남아있는 여백(*공간)이 있으면
+공존하면서 사용이 가능 
+
+block이면서 inline일 순 없을까?
+- inline-block 요소
 
 div
 
