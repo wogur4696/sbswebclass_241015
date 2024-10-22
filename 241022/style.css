@@ -1,0 +1,62 @@
+/* reset css */
+/* 전체 선택자 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+/* 태그 선택자 */
+h1 {
+  background: dodgerblue;
+}
+
+/* 후손 선택자 */
+/* ul li {
+  color: crimson;
+} */
+
+/* 클래스 선택자 */
+/* .boxitem {
+  background: yellowgreen;
+} */
+
+/* 속성 선택자 */
+input[type="text"] {
+  background: #ff0;
+}
+
+input[type="password"] {
+  background: brown;
+}
+
+/* 동위 선택자 */
+ul > a ~ li {
+  color: crimson;
+}
+
+/* 형태 구조 선택자 */
+body > ul:nth-of-type(2) {
+  display: flex;
+  & > li {
+    padding: 15px;
+  }
+  & > li:nth-child(2n) /* 짝수 even */ {
+    background: #ff0003;
+  }
+  & > li:nth-child(2n + 1) /* 홀수 odd */ {
+    background: #800000;
+  }
+}
+
+/* 일반 구조 선택자 */
+body > ul:nth-child(2) {
+  color: blue;
+}
+
+/* Nest = 둥지 */
