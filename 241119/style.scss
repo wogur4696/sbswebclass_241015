@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// body {
+//   background: greenyellow;
+//   width: 100%;
+//   height: 100vh;
+//   div {
+//     width: 100px;
+//     height: 100px;
+//     background: #000;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//   }
+// }
+
+body {
+  background: greenyellow;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  // align-items: center;
+  & > div {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    // align-items: center;
+    gap: 10px;
+    // flex-direction: column;
+    // flex-wrap: wrap;
+    flex-flow: row wrap;
+    div {
+      width: 100px;
+      height: 100px;
+      background: #000;
+    }
+  }
+}

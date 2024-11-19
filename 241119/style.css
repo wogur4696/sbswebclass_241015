@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: greenyellow;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+body > div {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  flex-flow: row wrap;
+}
+body > div div {
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
